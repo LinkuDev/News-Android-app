@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_main"
+    >
+<!--    <com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer-->
+<!--        app:navigationDrawerBackgroundColor="?attr/bgc"-->
+<!--        app:appbarColor="?attr/bgc"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:appbarTitleTextColor="?attr/tC"-->
+<!--        app:HamMenuIconTintColor="?attr/tC"-->
+<!--        app:primaryMenuItemTextColor="?attr/tC"-->
+<!--        app:secondaryMenuItemTextColor="?attr/tC"-->
+<!--        android:id="@+id/navigationDrawer">-->
+<!--        <FrameLayout-->
+<!--            android:id="@+id/frameLayout"-->
+<!--            android:background="?attr/bgc"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"/>-->
+
+<!--    </com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer>-->
+    <com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:navigationDrawerBackgroundColor="?attr/bgc"
+        app:appbarTitleTextColor="?attr/tC"
+        app:HamMenuIconTintColor="?attr/tC"
+        app:appbarColor="?attr/bgc"
+        app:primaryMenuItemTextColor="?attr/tC"
+        app:secondaryMenuItemTextColor="?attr/tC"
+        app:appbarTitleTextSize="7sp"
+        app:primaryMenuItemTextSize="5sp"
+        app:secondaryMenuItemTextSize="5sp"
+        android:id="@+id/navigationDrawer">
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:background="?attr/bgc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer>
+
+
+
+
+
+
+</LinearLayout>

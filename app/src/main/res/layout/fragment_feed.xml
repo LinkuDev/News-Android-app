@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/bgc"
+    tools:context=".FeedFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="370dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/delete"
+            android:drawableStart="@drawable/delete_bg"/>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_marginTop="50dp"
+        android:id="@+id/swipeRefreshsaved"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewSaved"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+</FrameLayout>
